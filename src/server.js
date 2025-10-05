@@ -1,6 +1,5 @@
 //const express = require('express');
 require('dotenv').config();
-console.log("DEBUG ENV:", process.env.MONGO_URI);
 const app = require('./app');
 const connectDB = require('./config/db');
 //console.log(app)
