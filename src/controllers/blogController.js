@@ -119,7 +119,7 @@ exports.getBlog = async (req, res, next) => {
 // update blog (owner can update in draft or published)
 exports.updateBlog = async (req, res, next) => {
   try {
-    console.log("You reach here at all")
+    console.log("U want to update")
     const { id } = req.params;
     const update = req.body;
     const blog = await Blog.findById(id);

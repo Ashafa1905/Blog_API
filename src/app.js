@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/api', routes);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my World')});
+    res.send('Welcome to my Blog website')});
 
 app.use(errorHandler);
 
